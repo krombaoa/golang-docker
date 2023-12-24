@@ -16,4 +16,6 @@ require (
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
+	github.com/cenkalti/backoff/v4 v4.1.0
+	github.com/cockroachdb/cockroach-go/v2 v2.1.1
 )
