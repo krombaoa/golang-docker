@@ -1,12 +1,16 @@
-# docker-gs-ping-roach
- 
-A slightly more advanced Go server/microservice example for [Docker's Go Language Guide](https://docs.docker.com/language/golang/). 
+# docker-gs-ping
+
+A simple Go server/microservice example for [Docker's Go Language Guide](https://docs.docker.com/language/golang/).
 
 Notable features:
 
-* Extends the basic example introduced in [olliefr/docker-gs-ping](https://github.com/olliefr/docker-gs-ping).
-* Uses [CockroachDB](https://github.com/cockroachdb/cockroach) database engine.
-* Introduces [Docker Compose](https://docs.docker.com/compose/).
+* Includes a [multi-stage `Dockerfile`](https://github.com/olliefr/docker-gs-ping/blob/main/Dockerfile.multistage).
+* Has a CI pipeline using GitHub Actions to run tests.
+* Has a CD pipeline using GitHub Actions to publish to Docker Hub.
+
+## Want _moar_?!
+
+There is a more advanced example in [olliefr/docker-gs-ping-roach](https://github.com/olliefr/docker-gs-ping-roach) using [CockroachDB](https://github.com/cockroachdb/cockroach).
 
 ## Contributing
 
